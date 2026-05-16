@@ -1,0 +1,28 @@
+# VoiceOps AI - Requirements
+# Python 3.10+
+
+# Core AI/ML Libraries
+openai-whisper==20231117
+transformers==4.35.2
+torch==2.1.0
+sentencepiece==0.1.99
+
+# Voice I/O
+gTTS==2.5.0
+pydub==0.25.1
+
+# Data Handling
+pandas==2.0.3
+numpy==1.24.3
+
+# Optional: Google Gemini Integration
+google-generativeai==0.3.1
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development Tools (Optional)
+ipython==8.12.0
+jupyter==1.0.0
+black==23.3.0
+pylint==2.17.4

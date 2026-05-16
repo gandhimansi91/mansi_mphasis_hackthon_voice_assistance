@@ -1,0 +1,109 @@
+# VoiceOps AI .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Data and outputs
+/dbfs/
+data/
+*.csv
+*.mp3
+*.wav
+*.log
+
+# Model cache
+transformers_cache/
+.cache/
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation
+docs/_build/
+
+# Databricks
+.databricks/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+# Data directories
+data/
+*.csv
+*.mp3
+*.wav
+*.txt
+!requirements.txt
+!README.txt
+
+# Logs
+logs/
+*.log
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
